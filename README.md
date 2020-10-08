@@ -2,13 +2,17 @@
 
 Taiga-events on the official Node image (Alpine variant).
 
-## Image deprecation
+## Image discontinued
 
-**This image is deprecated and will no longer receive updates of taiga-events
-version.** After 1st October 2020, this image won't receive any updates at all,
-and this repo will be archived. After that date, if the image becomes inactive
-on Docker Hub, it will be removed as per Docker Hub's [image retention policy](
+**This image is discontinued and will not receive any further updates at all.**
+If the image becomes inactive on Docker Hub, it will be removed as per Docker
+Hub [image retention policy](
 https://www.docker.com/pricing/resource-consumption-updates).
+
+There is now the official fork maintained by Taiga developers themselves and
+can be used as a drop-in replacement. You can find the sources on
+[their GitHub](https://github.com/taigaio/docker-taiga-events-5) and the image
+on [their Docker Hub](https://hub.docker.com/r/taigaio/taiga-events5).
 
 ## Deployment
 
